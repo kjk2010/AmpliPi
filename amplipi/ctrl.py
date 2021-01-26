@@ -61,7 +61,7 @@ class Api:
     ]
   }
 
-  def __init__(self, _rt = rt.Mock(), config_file = 'saved_state.json'):
+  def __init__(self, _rt = rt.Mock(), config_file = 'config/house.json'):
     self._rt = _rt
     self._mock = type(_rt) is rt.Mock
     """Intitializes the mock system to to base configuration """
